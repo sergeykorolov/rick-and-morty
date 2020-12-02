@@ -1,0 +1,22 @@
+.paginateItem {
+  height: 40px;
+  width: 50px;
+  color: #F5F5F5;
+  font-size: 20px;
+  margin-right: 5px;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+
+  &:hover {
+    cursor: pointer;
+    border: 1px solid #F5F5F5;
+    transition: 0.3s border;
+  }
+  &:disabled{
+    opacity: 0.1;
+  }
+  &.active {
+    border: 1px solid #F5F5F5;
+  }
+}

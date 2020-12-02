@@ -1,0 +1,11 @@
+@import "./scss/style";
+
+.app-wrapper {
+  max-width: $maxWidthContainer + px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  min-width: $minWidth + px;
+  @media (max-width: $md3+px) {
+    padding: 0 10px;
+  }
+}

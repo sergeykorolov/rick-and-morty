@@ -1,0 +1,12 @@
+.paginator {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 10px;
+
+  .dots {
+    color: #F5F5F5;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    margin-right: 2px;
+  }
+}
